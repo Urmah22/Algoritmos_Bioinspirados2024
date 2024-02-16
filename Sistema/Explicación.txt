@@ -1,0 +1,14 @@
+
+1. `import random`: Importamos el módulo random para generar números aleatorios.
+2. Definimos tres clases: `Antigen`, `Antibody` y `ImmuneSystem`, que representan los elementos básicos de nuestro sistema inmunológico.
+3. `Antigen` representa un antígeno con un ID único.
+4. `Antibody` representa un anticuerpo con un ID único y el ID del antígeno al que está dirigido.
+5. `ImmuneSystem` es la clase que simula el sistema inmunológico, inicializa antígenos y anticuerpos, y tiene métodos para evolucionar los anticuerpos y hacer coincidir los anticuerpos con los antígenos.
+6. En el método `__init__` de `ImmuneSystem`, creamos una lista de antígenos y una lista de anticuerpos, donde los ID de los anticuerpos apuntan a un antígeno aleatorio.
+7. El método `evolve_antibodies` de `ImmuneSystem` actualiza aleatoriamente los ID de los antígenos a los que están dirigidos los anticuerpos.
+8. El método `match_antibodies` de `ImmuneSystem` cuenta cuántos anticuerpos coinciden con su antígeno objetivo.
+9. En la parte principal del código, se establece el número de antígenos y anticuerpos y se crea una instancia de `ImmuneSystem`.
+10. Se imprimen los anticuerpos iniciales.
+11. Se evolucionan los anticuerpos (se actualizan los antígenos a los que apuntan).
+12. Se imprimen los anticuerpos actualizados.
+13. Se realiza un recuento de los anticuerpos que coinciden con sus antígenos objetivos y se imprime este recuento.

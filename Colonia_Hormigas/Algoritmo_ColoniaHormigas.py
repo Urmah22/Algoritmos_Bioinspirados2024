@@ -104,7 +104,7 @@ class AntColony(object):
 
 
 #Presolved TSP Instance
-with open("TSP_Data/gr120.json", "r") as tsp_data:
+with open("F:\GitProjects\Algoritmos_Bioinspirados2024\Colonia_Hormigas\gr120.json", "r") as tsp_data:
     tsp = json.load(tsp_data)
 
 distances = tsp["DistanceMatrix"]
